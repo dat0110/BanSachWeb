@@ -1,0 +1,101 @@
+﻿@model IEnumerable<BanSachWeb.Models.BookViewModel>
+
+<h2 class="mt-5">Sách mới nhất</h2>
+
+<div class="row justify-content-center">
+    @foreach (var product in Model)
+    {
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-5 ">
+            <div class="card h-100 custom-card">
+                <a href="@Url.Action("SachDetail", "Sach", new { id = product.MaSach })" style="text-decoration:none;color:black">
+                    <div class="card h-100 custom-card">
+                        <!-- Sale badge-->
+                        <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Giảm: @product.DiscountPercentage%</div>
+                        <!-- Product image-->
+                        <img class="card-img-top product-image" src="@Url.Content("~/Content/Image/" + product.AnhSach)" alt="Product Image" />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">@product.TenSach</h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill">⭐</div>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">@product.GiaGoc</span>
+                                @product.GiaBan
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">Da ban: @product.SoLuongDaBan</div>
+                        </div>
+                    </div>
+                </a>
+                <div class="row">
+                    <div class="col-2 "></div>
+                    <div class="col-4 ">
+                        @using (Html.BeginForm("BuyNow", "Cart", FormMethod.Post))
+                        {
+                            @Html.Hidden("maSach", product.MaSach)
+                            @Html.Hidden("quantity", 1)
+                            <button type="submit" class="btn btn-success">Mua</button>
+                        }
+                    </div>
+                    <div class="col-4">
+                        @using (Html.BeginForm("AddToCart", "Cart", FormMethod.Post, new { @class = "add-to-cart-form" }))
+                        {
+                            @Html.Hidden("maSach", product.MaSach) <!-- Sử dụng Hidden field để truyền mã sách quantity -->
+                            @Html.Hidden("quantity", 1)
+                            <button type="submit" class="btn btn-primary add-to-cart-button_new">Thêm</button> <!-- Added the class here -->
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+<style>
+    .product-image {
+        width: 100%;
+        height: 200px; /* Set a fixed height */
+        object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+    }
+
+    .card {
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.add-to-cart-button_new').click(function (event) {
+            event.preventDefault(); // Prevent default form submission
+            var form = $(this).closest('form');
+            var formData = form.serialize();
+
+            $.ajax({
+                type: 'POST',
+                url: form.attr('action'),
+                data: formData,
+                success: function (response) {
+                    if (response.success) {
+                        alert('Thêm vào giỏ hàng thành công!');
+                    } else {
+                        if (response.notLoggedIn) {
+                            alert('Vui lòng đăng nhập.');
+                            // Optionally, redirect to the login page
+                            window.location.href = '/Account/Login';
+                        } else {
+                            alert('Thêm vào giỏ hàng thất bại.');
+                        }
+                    }
+                },
+                error: function () {
+                    alert('Có lỗi xảy ra. Vui lòng thử lại.');
+                }
+            });
+        });
+    });
+</script>

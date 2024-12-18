@@ -1,0 +1,53 @@
+﻿@model BanSachWeb.ViewModels.UpdateAccountInfoViewModel
+
+@{
+    ViewBag.Title = "Update Account Info";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container d-flex justify-content-center">
+    <div class="card" style="width: 100%; max-width: 600px; margin: 20px;">
+        <div class="card-body text-center">
+            <h2 style="margin:10px">Cập Nhật Thông Tin Tài Khoản</h2>
+            @using (Html.BeginForm("UpdateAccountInfo", "Account", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-group mb-3">
+                    <p class="mb-2" style="text-align:left">Tên Đăng Nhập</p>
+                    @Html.TextBoxFor(m => m.TenDangNhap, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.TenDangNhap, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group mb-3">
+                    <p class="mb-2" style="text-align:left">Email</p>
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group mb-3">
+                    <p class="mb-2" style="text-align:left">Họ Tên</p>
+                    @Html.TextBoxFor(m => m.HoTen, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.HoTen, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group mb-3">
+                    <p class="mb-2" style="text-align:left">Số điện thoại</p>
+                    @Html.TextBoxFor(m => m.SoDienThoai, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.SoDienThoai, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group mb-3">
+                    <p class="mb-2" style="text-align:left">Thông tin nhận hàng</p>
+                    @Html.TextBoxFor(m => m.ThongTinNhanHang, new { @class = "form-control", disabled = "disabled" })
+                    @Html.ValidationMessageFor(m => m.ThongTinNhanHang, "", new { @class = "text-danger" })
+                </div>
+
+                <div style="margin:10px; padding:10px">
+                    <button type="submit" class="btn btn-primary ms-2">Cập Nhật</button>
+                    <a class="btn btn-secondary ms-2" href="@Url.Action("ChangePass","Account")">Đổi mật khẩu</a>
+                    <a class="btn btn-secondary ms-2" href="@Url.Action("Index","DiaChis")">Quản lý địa chỉ</a>
+                    <a class="btn btn-danger ms-2" href="@Url.Action("Maincontent","Home")">Hủy bỏ</a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

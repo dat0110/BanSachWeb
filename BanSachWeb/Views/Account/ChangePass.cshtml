@@ -1,0 +1,95 @@
+﻿@{
+    ViewBag.Title = "UpdateAccountInfo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    td {
+        padding: 15px;
+        text-align: left;
+    }
+
+    .center-table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons {
+        margin: 20px;
+    }
+
+        .buttons a {
+            padding: 10px;
+            margin: 10px;
+        }
+
+    #bntluu {
+        padding: 6px 25px 6px 25px;
+    }
+
+    .password-container {
+        position: relative;
+        width: 100%;
+    }
+
+    .toggle-password {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+</style>
+
+@using (Html.BeginForm("ChangePass", "Account"))
+{
+    <div class="container text-center py-3">
+        <div class="card" style="width: 100%; max-width: 600px; margin-top: 20px;">
+            <div class="card-body text-center">
+                <h2>Thay đổi mật khẩu</h2>
+                <table class="table_form center-table">
+                    <tr>
+                        <td>
+                            <label for="newPass">Mật khẩu mới:</label>
+                        </td>
+                        <td>
+                            <div class="password-container">
+                                @Html.TextBox("newPass", null, new { @class = "form-control", type = "password", id = "newPass" })
+                                <span class="toggle-password" onclick="togglePassword('newPass')">&#x1F441;</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="confirmPass">Xác nhận mật khẩu:</label>
+                        </td>
+                        <td>
+                            <div class="password-container">
+                                @Html.TextBox("confirmPass", null, new { @class = "form-control", type = "password", id = "confirmPass" })
+                                <span class="toggle-password" onclick="togglePassword('confirmPass')">&#x1F441;</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                @ViewBag.mess
+                <div class="d-inline">
+                    <button id="bntluu" type="submit" class="btn btn-success ms-3">Lưu</button>
+                    <a href="@Url.Action("UpdateAccountInfo", "Account")" type="button" class="btn btn-danger ms-3">Hủy bỏ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<script>
+    function togglePassword(fieldId) {
+        var field = document.getElementById(fieldId);
+        var type = field.getAttribute('type') === 'password' ? 'text' : 'password';
+        field.setAttribute('type', type);
+    }
+</script>

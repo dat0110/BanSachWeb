@@ -1,0 +1,101 @@
+﻿
+
+@model BanSachWeb.Models.DiaChi
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<style>
+    /* CSS */
+    .form-horizontal {
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 20px;
+        width: 60%;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .control-label {
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    .btn {
+        margin-right: 10px;
+    }
+
+    #td {
+        text-align: center;
+        padding-top: 10px;
+    }
+</style>
+
+<h2 id="td">Cập nhật thông tin địa chỉ</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="form-horizontal mx-5">
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger", disable = "disabled" })
+                @Html.HiddenFor(model => model.MaDiaChi)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DiaChiCuThe, "Địa chỉ cụ thể", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div>
+                        @Html.EditorFor(model => model.DiaChiCuThe, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.DiaChiCuThe, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MacDinh, "Mặc định", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div>
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.MacDinh)
+                            @Html.ValidationMessageFor(model => model.MacDinh, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.SoDienThoaiNhanHang, "Số điện thoại nhận hàng", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div>
+                        @Html.EditorFor(model => model.SoDienThoaiNhanHang, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.SoDienThoaiNhanHang, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.TenNguoiNhan, "Tên người nhận", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div>
+                        @Html.EditorFor(model => model.TenNguoiNhan, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.TenNguoiNhan, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Lưu" class="btn btn-primary" />
+                        <a href="@Url.Action("Index", "DiaChis")" class="btn btn-danger btn-user btn-block">Hủy bỏ</a>
+                    </div>
+                </div>
+
+                <div style="text-decoration:none; margin:10px; text-align:right">
+                    @Html.ActionLink("Quản lý thông tin nhận hàng", "Index", "DiaChis")
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+}
+

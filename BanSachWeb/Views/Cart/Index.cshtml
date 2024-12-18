@@ -1,0 +1,144 @@
+﻿@model BanSachWeb.Models.GioHang
+
+@{
+    decimal totalPrice = 0;
+}
+
+@foreach (var item in Model.ChiTietGioHangs)
+{
+    var product = item.Sach; // Assuming `Sach` is the product entity
+    var quantity = item.SoLuong ?? 0;
+    var itemTotalPrice = (product.GiaBan ?? 0) * quantity;
+    totalPrice += itemTotalPrice;
+
+    <div class="card rounded-3 mb-4">
+        <div class="card-body p-4">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-1 col-lg-1 col-xl-1">
+                    <input type="checkbox" class="chon-mua-checkbox" data-product-id="@product.MaSach" data-item-price="@itemTotalPrice" @(item.IsSelected ? "checked" : "") />
+                    
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2">
+                    <img src="~/Content/Image/@product.AnhSach" class="img-fluid rounded-3" alt="Sách">
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                    <p class="lead fw-normal mb-2">@product.TenSach</p>
+                    <p><span class="text-muted">Giá: </span>@product.GiaBan VNĐ</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2">
+                    @using (Html.BeginForm("UpdateQuantity", "Cart", FormMethod.Post))
+                    {
+                        @Html.Hidden("maSach", product.MaSach)
+                        <input type="number" name="newQuantity" class="form-control" value="@quantity" min="1" />
+                        <button type="submit" class="btn btn-link">Cập nhật</button>
+                    }
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                    <h5 class="mb-0" id="totalPrice_@product.MaSach">@itemTotalPrice VNĐ</h5>
+                </div>
+                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                    @using (Html.BeginForm("RemoveFromCart", "Cart", FormMethod.Post))
+                    {
+                        @Html.Hidden("maSach", product.MaSach) <!-- Sử dụng Hidden field để truyền mã sách -->
+                        <a href="#" onclick="this.parentNode.submit();" class="btn btn-link"><i class="fas fa-trash fa-lg"></i></a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+
+<div class="payment-method-selection">
+    <h5>Chọn phương thức thanh toán</h5>
+    <div>
+        <input type="radio" id="cash" name="paymentMethod" value="cash" checked>
+        <label for="cash">Tiền mặt</label>
+    </div>
+    <div>
+        <input type="radio" id="creditCard" name="paymentMethod" value="online">
+        <label for="creditCard">Thẻ tín dụng</label>
+    </div>
+    
+</div>
+
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="d-flex justify-content-end">Thành tiền: <span id="totalPriceDisplay">0 VNĐ</span></h4>
+        <button type="button" id="checkoutButton" class="btn btn-warning btn-block btn-lg w-100">Thanh toán</button>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var totalPriceDisplay = document.getElementById("totalPriceDisplay");
+
+        function updateTotalPrice() {
+            var selectedItems = document.querySelectorAll(".chon-mua-checkbox:checked");
+            var total = 0;
+
+            selectedItems.forEach(function (item) {
+                total += parseFloat(item.getAttribute("data-item-price"));
+            });
+
+            totalPriceDisplay.textContent = total.toLocaleString('de-DE') + " VNĐ";
+        }
+        // Update total price on page load
+        updateTotalPrice();
+
+        document.querySelectorAll(".chon-mua-checkbox").forEach(function (checkbox) {
+            checkbox.addEventListener("change", updateTotalPrice);
+        });
+        var checkoutButton = document.getElementById("checkoutButton");
+        if (checkoutButton) {
+            checkoutButton.addEventListener("click", function () {
+                var selectedProducts = [];
+                var checkboxes = document.querySelectorAll(".chon-mua-checkbox:checked");
+                checkboxes.forEach(function (checkbox) {
+                    selectedProducts.push(checkbox.getAttribute("data-product-id"));
+                });
+
+                var paymentMethodElement = document.querySelector('input[name="paymentMethod"]:checked');
+                if (!paymentMethodElement) {
+                    alert("Vui lòng chọn phương thức thanh toán.");
+                    return;
+                }
+
+                var paymentMethod = paymentMethodElement.value;
+
+                if (selectedProducts.length === 0) {
+                    alert("Vui lòng chọn ít nhất một sản phẩm để mua.");
+                    return;
+                }
+
+                
+               // alert("Payment Method:"+ paymentMethod);
+
+                fetch('/Cart/CheckOut', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ paymentMethod: paymentMethod, selectedProducts: selectedProducts })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        //alert("Response Data:"+data);
+                        if (data.success) {
+                            window.location.href = "/Cart/OrderConfirmation?orderId=" + data.orderId;
+                           //alert("oder id :" + data.orderId );
+
+                        } else {
+                            alert("Failed to create order:"+ data.message);
+                        }
+                    })
+                    .catch(error => {
+                        console.error("Error:", error);
+                    });
+            });
+        } else {
+            console.error("Checkout button not found.");
+        }
+    });
+</script>

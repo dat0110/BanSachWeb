@@ -1,0 +1,235 @@
+﻿@model BanSachWeb.ViewModels.BookDetailsViewModel
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img class="card-img-top product-image-detail" src="@Url.Content("~/Content/Image/" + Model.Book.AnhSach)" alt="Product Image" />
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-body">
+                            <h1 class="card-title">@Model.Book.TenSach</h1>
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <p class="card-text">Tác giả:</p>
+                                </div>
+                                <div class="col-md-8">
+                                    @if (Model.Book.MaTacGia.HasValue)
+                                    {
+                                        BanSachWeb.Models.QuanLyBanSachModel db = new BanSachWeb.Models.QuanLyBanSachModel();
+                                        var tacGia = db.TacGias.Find(Model.Book.MaTacGia);
+                                        if (tacGia != null)
+                                        {
+                                            <p class="card-text">@tacGia.TenTacGia</p>
+                                        }
+                                        else
+                                        {
+                                            <p class="card-text">Không có tác giả</p>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <p class="card-text">Không có tác giả</p>
+                                    }
+                                </div>
+                            </div>
+                            <div id="averageRatingStars"></div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <p class="card-text">Giá:</p>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="card-text">@Model.Book.GiaBan VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <p class="card-text">Tóm tắt:</p>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="card-text">@Model.Book.TomTat</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <p class="card-text">Còn dư:</p>
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="card-text">@Model.Book.SoLuongConDu</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <p class="card-text">Số lượng:</p>
+                                </div>
+                                <div class="col-md-8">
+                                    <input id="quantity" name="quantity" type="number" class="form-control" aria-label="Quantity" value="1" min="1" max="@Model.Book.SoLuongConDu">
+                                    <span id="quantityError" class="text-danger" style="display: none;">Số lượng không hợp lệ.</span>
+                                </div>
+                            </div>
+
+                            <div class="mt-3">
+                                @using (Html.BeginForm("AddToCart", "Cart", FormMethod.Post, new { @class = "add-to-cart-form", id = "addToCartForm" }))
+                                {
+                                    @Html.Hidden("maSach", Model.Book.MaSach) <!-- Sử dụng Hidden field để truyền mã sách quantity -->
+                                    @Html.Hidden("quantity", 1, new { id = "hiddenQuantity" })
+                                    <button type="submit" class="btn btn-primary add-to-cart-button" id="addToCartButton">Thêm</button> <!-- Added the class here -->
+                                }
+                                @using (Html.BeginForm("BuyNow", "Cart", FormMethod.Post, new { id = "buyNowForm" }))
+                                {
+                                    @Html.Hidden("maSach", Model.Book.MaSach)
+                                    @Html.Hidden("quantity", 1, new { id = "hiddenQuantityBuy" })
+                                    <button type="submit" class="btn btn-success" id="buyNowButton">Mua hàng</button>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<h3>Relevant Books</h3>
+<div class="row">
+    @foreach (var relevantBook in Model.RelevantBooks)
+    {
+        <div class="col-md-3">
+            <div class="card">
+                <img src="~/Content/Image/@relevantBook.AnhSach" class="card-img-top" alt="@relevantBook.TenSach" style="height: 200px; width: auto;" />
+                <div class="card-body">
+                    <h5 class="card-title">@relevantBook.TenSach</h5>
+                    <p class="card-text">@relevantBook.GiaBan VNĐ</p>
+                    @Html.ActionLink("View Details", "SachDetail", "Sach", new { id = relevantBook.MaSach }, new { @class = "btn btn-primary" })
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .product-image-detail {
+        width: 400px;
+        height: auto;
+    }
+
+    .checked {
+        color: gold; /* Or any color you choose for filled stars */
+    }
+</style>
+
+<script>
+    document.getElementById("addToCartButton").addEventListener("click", function (event) {
+        event.preventDefault();
+        var quantity = document.getElementById("quantity").value;
+        if (validateQuantity(quantity)) {
+            document.getElementById("hiddenQuantity").value = quantity;
+            
+        }
+        //Vì có 2 sự kiện click ở chức năng thêm vào giỏ hàng gây xung đột ajax ở dưới, nên sẽ bỏ dòng document.getElementById("addToCartForm").submit();
+      
+    });
+    document.getElementById("buyNowButton").addEventListener("click", function (event) {
+        event.preventDefault();
+        var quantity = document.getElementById("quantity").value;
+        if (validateQuantity(quantity)) {
+            document.getElementById("hiddenQuantityBuy").value = quantity;
+            document.getElementById("buyNowForm").submit();
+        }
+    });
+    function validateQuantity(quantity) {
+        var quantityError = document.getElementById("quantityError");
+        var maxQuantity = parseInt(document.getElementById("quantity").getAttribute("max"), 10);
+        var valid = true;
+
+        if (quantity < 1 || quantity > maxQuantity) {
+            quantityError.style.display = "block";
+            valid = false;
+        } else {
+            quantityError.style.display = "none";
+        }
+
+        return valid;
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.add-to-cart-button').click(function (event) {
+            event.preventDefault(); // Prevent default form submission
+            var form = $(this).closest('form');
+            var formData = form.serialize();
+
+            $.ajax({
+                type: 'POST',
+                url: form.attr('action'),
+                data: formData,
+                success: function (response) {
+                    if (response.success) {
+                        alert('Thêm vào giỏ hàng thành công!');
+                    } else {
+                        if (response.notLoggedIn) {
+                            alert('Vui lòng đăng nhập.');
+                            // Optionally, redirect to the login page
+                            window.location.href = '/Account/Login';
+                        } else {
+                            alert('Thêm vào giỏ hàng thất bại.');
+                        }
+                    }
+                },
+                error: function () {
+                    alert('Có lỗi xảy ra. Vui lòng thử lại.');
+                }
+            });
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        // Function to generate star rating UI
+        function generateStarRating(rating) {
+            var stars = '';
+            for (var i = 1; i <= 5; i++) {
+                if (i <= rating) {
+                    stars += '<span class="fa fa-star checked"></span>';
+                } else {
+                    stars += '<span class="fa fa-star"></span>';
+                }
+            }
+            return stars;
+        }
+
+       // AJAX request to load average rating when the page loads
+        $.ajax({
+            type: 'GET',
+            url: '@Url.Action("GetAverageRating", "Sach")',
+            data: { bookId: @Model.Book.MaSach },
+            success: function (response) {
+                if (response.reviewCount > 0) {
+                    var averageRating = response.averageRating;
+                    
+                    var averageRatingStars = generateStarRating(averageRating);
+                    $('#averageRatingStars').html(averageRatingStars);
+                } else {
+                    $('#averageRatingStars').html('<p>Chưa có lượt đánh giá</p>' + generateStarRating(0));
+                }
+            },
+            error: function () {
+                alert('Không thể tải đánh giá. Vui lòng thử lại sau.');
+            }
+        });
+
+        $('#averageRatingStars').click(function () {
+            window.location.href = '@Url.Action("GetBookReviews", "Sach", new { bookId = Model.Book.MaSach })';
+        });
+    });
+</script>
+
+

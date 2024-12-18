@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Online Payment";
+}
+
+<h2>Online Payment</h2>
+<p>Please click the button below to proceed with the payment.</p>
+
+<form method="get" action="@Url.Action("OnlinePayment", "Cart")">
+    <input type="hidden" name="typePaymentVN" value="1" /> <!-- Example type, adjust as needed -->
+    <input type="hidden" name="orderId" value="@ViewBag.OrderId" /> <!-- Ensure order ID is passed -->
+    <button type="submit">Pay with VNPAY</button>
+</form>

@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0AC32E33-1C88-484C-A176-E384AAAAB994}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BanSachWeb</RootNamespace>
+    <AssemblyName>BanSachWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44379</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.1\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.9\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.9\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.9\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.9\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.9\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.9\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\DiaChisController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\SachController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChiNhanh.cs" />
+    <Compile Include="Models\ChiTietDonHang.cs" />
+    <Compile Include="Models\ChiTietGioHang.cs" />
+    <Compile Include="Models\DanhMucChinh.cs" />
+    <Compile Include="Models\DanhMucPhu.cs" />
+    <Compile Include="Models\DiaChi.cs" />
+    <Compile Include="Models\DonHang.cs" />
+    <Compile Include="Models\GioHang.cs" />
+    <Compile Include="Models\KhuyenMai.cs" />
+    <Compile Include="Models\MoMo\Config\MomoConfig.cs" />
+    <Compile Include="Models\PaymentInformationModel.cs" />
+    <Compile Include="Models\PaymentResponseModel.cs" />
+    <Compile Include="Models\Payments\VnPayLibrary.cs" />
+    <Compile Include="Models\PhanHoi.cs" />
+    <Compile Include="Models\QuanLyBanSachModel.cs" />
+    <Compile Include="Models\Sach.cs" />
+    <Compile Include="Models\TacGia.cs" />
+    <Compile Include="Models\TaiKhoan.cs" />
+    <Compile Include="ViewModels\BookDetailsViewModel.cs" />
+    <Compile Include="ViewModels\BookReviewDetailsViewModel.cs" />
+    <Compile Include="ViewModels\CartItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\AddressViewModel.cs" />
+    <Compile Include="ViewModels\BookViewModel.cs" />
+    <Compile Include="ViewModels\CheckoutViewModel.cs" />
+    <Compile Include="ViewModels\KhuyenMaiViewModel.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\RegisterViewModel.cs" />
+    <Compile Include="ViewModels\ReviewViewModel.cs" />
+    <Compile Include="ViewModels\SearchViewModel.cs" />
+    <Compile Include="ViewModels\UpdateAccountInfoViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\HomeStyle.css" />
+    <Content Include="Content\Image\bach-khoa-toan-thu-vat-ly.jpg" />
+    <Content Include="Content\Image\bang-tuyet.jpg" />
+    <Content Include="Content\Image\bao-ngam.jpg" />
+    <Content Include="Content\Image\ben-kia-bau-troi.jpg" />
+    <Content Include="Content\Image\bi-mat-cua-anh-sang.jpg" />
+    <Content Include="Content\Image\bien-nien-su-con-trung.jpg" />
+    <Content Include="Content\Image\Book01.jpg" />
+    <Content Include="Content\Image\Book02.jpg" />
+    <Content Include="Content\Image\Book03.jpg" />
+    <Content Include="Content\Image\Book04.jpg" />
+    <Content Include="Content\Image\Book05.jpg" />
+    <Content Include="Content\Image\Book06.jpg" />
+    <Content Include="Content\Image\Book07.jpg" />
+    <Content Include="Content\Image\Book08.jpg" />
+    <Content Include="Content\Image\Book09.jpg" />
+    <Content Include="Content\Image\Book10.jpg" />
+    <Content Include="Content\Image\Book11.jpg" />
+    <Content Include="Content\Image\Book12.jpg" />
+    <Content Include="Content\Image\Book13.jpg" />
+    <Content Include="Content\Image\Book14.jpg" />
+    <Content Include="Content\Image\Book15.jpg" />
+    <Content Include="Content\Image\Book16.jpg" />
+    <Content Include="Content\Image\Book17.jpg" />
+    <Content Include="Content\Image\Book18.jpg" />
+    <Content Include="Content\Image\Book19.jpg" />
+    <Content Include="Content\Image\Book20.jpg" />
+    <Content Include="Content\Image\Book21.jpg" />
+    <Content Include="Content\Image\Book22.jpg" />
+    <Content Include="Content\Image\Book23.jpg" />
+    <Content Include="Content\Image\chan-troi-moi.jpg" />
+    <Content Include="Content\Image\chi-pheo.jpg" />
+    <Content Include="Content\Image\chiec-thuyen-ngoai-xa.jpg" />
+    <Content Include="Content\Image\co-hoc-chat-ran.jpg" />
+    <Content Include="Content\Image\co-hoc-luong-tu.jpg" />
+    <Content Include="Content\Image\cuoc-doi-va-nhung-noi-dau.jpg" />
+    <Content Include="Content\Image\cuoc-hanh-trinh.jpg" />
+    <Content Include="Content\Image\dien-dong-luc-hoc.jpg" />
+    <Content Include="Content\Image\doi-mat.jpg" />
+    <Content Include="Content\Image\dong-luc-hoc.jpg" />
+    <Content Include="Content\Image\giac-mo-lon.jpg" />
+    <Content Include="Content\Image\giao-tiep-tieng-anh-noi-cong-so.jpg" />
+    <Content Include="Content\Image\gio-dau-mua.jpg" />
+    <Content Include="Content\Image\gio-mua-thu.jpg" />
+    <Content Include="Content\Image\goc-khuat-cua-anh-sang.jpg" />
+    <Content Include="Content\Image\hoa-hoc-be-mat.jpg" />
+    <Content Include="Content\Image\hoa-hoc-chat-long.jpg" />
+    <Content Include="Content\Image\hoa-hoc-dai-cuong.jpg" />
+    <Content Include="Content\Image\hoa-hoc-huu-co-co-ban.jpg" />
+    <Content Include="Content\Image\hoa-hoc-huu-co-nang-cao.jpg" />
+    <Content Include="Content\Image\hoa-hoc-huu-co-thuc-hanh.jpg" />
+    <Content Include="Content\Image\hoa-hoc-huu-co.jpg" />
+    <Content Include="Content\Image\hoa-hoc-khi.jpg" />
+    <Content Include="Content\Image\hoa-hoc-moi-truong.jpg" />
+    <Content Include="Content\Image\hoa-hoc-phan-tich.jpg" />
+    <Content Include="Content\Image\hoa-hoc-phuc-hop.jpg" />
+    <Content Include="Content\Image\hoa-hoc-polymer.jpg" />
+    <Content Include="Content\Image\hoa-hoc-ran.jpg" />
+    <Content Include="Content\Image\hoa-hoc-sinh-hoc.jpg" />
+    <Content Include="Content\Image\hoa-hoc-vat-lieu.jpg" />
+    <Content Include="Content\Image\hoa-hoc-vo-co-co-ban.jpg" />
+    <Content Include="Content\Image\hoa-hoc-vo-co-nang-cao.jpg" />
+    <Content Include="Content\Image\hoa-hoc-vo-co.jpg" />
+    <Content Include="Content\Image\hoa-no-muon.jpg" />
+    <Content Include="Content\Image\huong-dem.jpg" />
+    <Content Include="Content\Image\ke-san-bong-toi.jpg" />
+    <Content Include="Content\Image\ke-san-duoi.jpg" />
+    <Content Include="Content\Image\khat-vong-song.jpg" />
+    <Content Include="Content\Image\luc-hap-dan.jpg" />
+    <Content Include="Content\Image\luc-luong-va-chuyen-dong.jpg" />
+    <Content Include="Content\Image\luyen-nghe-tieng-anh.jpg" />
+    <Content Include="Content\Image\luyen-thi-ielts.jpg" />
+    <Content Include="Content\Image\luyen-thi-toeic.jpg" />
+    <Content Include="Content\Image\luyen-viet-tieng-anh.jpg" />
+    <Content Include="Content\Image\ly-thuyet-tuong-doi.jpg" />
+    <Content Include="Content\Image\mua-dong-am-ap.jpg" />
+    <Content Include="Content\Image\mua-dong-lanh-gia.jpg" />
+    <Content Include="Content\Image\mua-he-ruc-ro.jpg" />
+    <Content Include="Content\Image\mua-he-trong-mat-em.jpg" />
+    <Content Include="Content\Image\mua-ngau.jpg" />
+    <Content Include="Content\Image\mua-thang-nam.jpg" />
+    <Content Include="Content\Image\mua-thu-va-em.jpg" />
+    <Content Include="Content\Image\mua-thu-vang.jpg" />
+    <Content Include="Content\Image\mua-xuan-tuoi-dep.jpg" />
+    <Content Include="Content\Image\nang-luong-toi.jpg" />
+    <Content Include="Content\Image\nang-thang-tu.jpg" />
+    <Content Include="Content\Image\ngon-den-truoc-gio.jpg" />
+    <Content Include="Content\Image\ngu-am-tieng-anh.jpg" />
+    <Content Include="Content\Image\ngu-phap-tieng-anh.jpg" />
+    <Content Include="Content\Image\nguoi-lai-do-song-da.jpg" />
+    <Content Include="Content\Image\nguoi-lu-hanh.jpg" />
+    <Content Include="Content\Image\nguoi-tro-ve-tu-coi-chet.jpg" />
+    <Content Include="Content\Image\nhung-con-mua-chieu.jpg" />
+    <Content Include="Content\Image\nhung-dem-mua.jpg" />
+    <Content Include="Content\Image\nhung-ky-niem.jpg" />
+    <Content Include="Content\Image\nhung-mua-xuan-da-qua.jpg" />
+    <Content Include="Content\Image\nhung-ngay-mua.jpg" />
+    <Content Include="Content\Image\nhung-nguoi-khon-kho.jpg" />
+    <Content Include="Content\Image\niet-dong-luc-hoc.jpg" />
+    <Content Include="Content\Image\phan-ung-hoa-hoc.jpg" />
+    <Content Include="Content\Image\phuong-phap-day-tieng-anh.jpg" />
+    <Content Include="Content\Image\phuong-phap-phan-tich-hoa-hoc.jpg" />
+    <Content Include="Content\Image\quang-hoc-luong-tu.jpg" />
+    <Content Include="Content\Image\rung-na-uy.jpg" />
+    <Content Include="Content\Image\tat-den.jpg" />
+    <Content Include="Content\Image\thang-nam-va-nhung-ky-niem.jpg" />
+    <Content Include="Content\Image\the-gioi-dong-vat.jpg" />
+    <Content Include="Content\Image\the-gioi-song-song.jpg" />
+    <Content Include="Content\Image\thoi-tho-au.jpg" />
+    <Content Include="Content\Image\thuyet-tuong-doi-rong.jpg" />
+    <Content Include="Content\Image\tieng-anh-trung-cap.jpg" />
+    <Content Include="Content\Image\tieng-anh-cho-nguoi-di-lam.jpg" />
+    <Content Include="Content\Image\tieng-anh-cho-tre-em.jpg" />
+    <Content Include="Content\Image\tieng-anh-co-ban.jpg" />
+    <Content Include="Content\Image\tieng-anh-du-lich.jpg" />
+    <Content Include="Content\Image\tieng-anh-giao-tiep.jpg" />
+    <Content Include="Content\Image\tieng-anh-nang-cao.jpg" />
+    <Content Include="Content\Image\tieng-anh-thuong-mai.jpg" />
+    <Content Include="Content\Image\tinh-nguoi.jpg" />
+    <Content Include="Content\Image\tinh-yeu-va-chien-tranh.jpg" />
+    <Content Include="Content\Image\tram-nam-co-don.jpg" />
+    <Content Include="Content\Image\trang-ram.jpg" />
+    <Content Include="Content\Image\tu-dien-anh-viet.jpg" />
+    <Content Include="Content\Image\tu-vung-tieng-anh.jpg" />
+    <Content Include="Content\Image\vat-ly-chat-ban-dan.jpg" />
+    <Content Include="Content\Image\vat-ly-chat-long.jpg" />
+    <Content Include="Content\Image\vat-ly-dien-tu.jpg" />
+    <Content Include="Content\Image\vat-ly-dien.jpg" />
+    <Content Include="Content\Image\vat-ly-hat-nhan2.jpg" />
+    <Content Include="Content\Image\vat-ly-luong-tu.jpg" />
+    <Content Include="Content\Image\vat-ly-nguyen-to.jpg" />
+    <Content Include="Content\Image\vat-ly-nhiet-dong.jpg" />
+    <Content Include="Content\Image\vat-ly-plasma.jpg" />
+    <Content Include="Content\Image\vat-ly-song-co.jpg" />
+    <Content Include="Content\Image\vat-ly-song-dien-tu.jpg" />
+    <Content Include="Content\Image\vat-ly-thien-van.jpg" />
+    <Content Include="Content\Image\vat-ly-tu-truong.jpg" />
+    <Content Include="Content\Image\vo-chong-a-phu.jpg" />
+    <Content Include="Content\Image\vu-tru-hoc.jpg" />
+    <Content Include="Content\Image\vu-tru-trong-vo-hat-de.jpg" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Content\Image\.DS_Store" />
+    <Content Include="appsettings.json" />
+    <None Include="Scripts\jquery-3.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.7.1.js" />
+    <Content Include="Scripts\jquery-3.7.1.min.js" />
+    <Content Include="Scripts\jquery-3.7.1.slim.js" />
+    <Content Include="Scripts\jquery-3.7.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.7.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.7.1.min.map" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Account\ForgotPassword.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Home\MainContent.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\ChangePass.cshtml" />
+    <Content Include="Views\Account\UpdateAccountInfo.cshtml" />
+    <Content Include="Views\Home\Error.cshtml" />
+    <Content Include="Views\Account\CreateAddress.cshtml" />
+    <Content Include="Views\Sach\Index.cshtml" />
+    <Content Include="Views\DiaChis\Create.cshtml" />
+    <Content Include="Views\DiaChis\Delete.cshtml" />
+    <Content Include="Views\DiaChis\Edit.cshtml" />
+    <Content Include="Views\DiaChis\Index.cshtml" />
+    <Content Include="Views\Sach\GetCategories.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Cart\OnlinePayment.cshtml" />
+    <Content Include="Views\Cart\OrderConfirmation.cshtml" />
+    <Content Include="Views\Cart\PaymentError.cshtml" />
+    <Content Include="Views\Shared\_TopSale.cshtml" />
+    <Content Include="Views\Sach\SachDetail.cshtml" />
+    <Content Include="Views\Sach\_TopNewBooks.cshtml" />
+    <Content Include="Views\Cart\UserOrders.cshtml" />
+    <Content Include="Views\Cart\OrderDetails.cshtml" />
+    <Content Include="Views\Sach\GetBookReviews.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Models\MoMo\lib\" />
+    <Folder Include="Models\MoMo\Request\" />
+    <Folder Include="Models\MoMo\Response\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49499</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44379/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

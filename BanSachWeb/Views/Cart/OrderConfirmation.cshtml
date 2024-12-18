@@ -1,0 +1,79 @@
+﻿@model BanSachWeb.Models.DonHang
+
+@{
+    ViewBag.Title = "Order Confirmation";
+}
+
+<div class="mx-5 my-5">
+    @if (ViewBag.SuccessMessage != null)
+    {
+        <div class="alert alert-success">
+            @ViewBag.SuccessMessage
+        </div>
+    }
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.ErrorMessage
+        </div>
+    }
+   
+    <h3 class="my-3">Thông tin đơn hàng</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Book</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ChiTietDonHangs)
+            {
+                <tr>
+                    <td>
+                        <img src="~/Content/Image/@item.Sach.AnhSach" alt="Sách" style="width: 100px; height: auto;" />
+                        <div>@item.Sach.TenSach</div> <!-- Display the book name -->
+                    </td>
+                    <td>@item.SoLuong</td>
+                    <td>@item.GiaBan VNĐ</td>
+                    <td>@(item.SoLuong * item.GiaBan) VNĐ</td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><strong>Total:</strong></td>
+                <td><strong>@Model.TongGiaTri VNĐ</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <div class="my-3">
+        <h5>Thông tin nhận hàng</h5>
+        @if (Model.DiaChi != null)
+        {
+            <p>Họ tên người nhận: @Model.DiaChi.TenNguoiNhan</p>
+            <p>Số điện thoại nhận hàng: @Model.DiaChi.SoDienThoaiNhanHang</p>
+            <p>Địa chỉ: @Model.DiaChi.DiaChiCuThe</p>
+        }
+        else
+        {
+            <p>Họ tên người nhận: Unknown</p>
+            <p>Số điện thoại nhận hàng: Unknown</p>
+            <p>Địa chỉ: Unknown</p>
+        }
+        <p><a href="@Url.Action("Index", "DiaChis")">Thay đổi địa chỉ</a></p>
+    </div>
+    <div class="my-3">
+        <h5>Thông tin thanh toán</h5>
+        <div class="form-group my-3">
+            <p>Phương thức thanh toán: @Model.PhuongThucThanhToan</p>
+        </div>
+    </div>
+    <form action="@Url.Action("ConfirmOrder", "Cart")" method="post">
+        <input type="hidden" name="orderId" value="@Model.MaDonHang" />
+        <input type="hidden" name="paymentMethod" value="@Model.PhuongThucThanhToan" />
+        <button type="submit" class="btn btn-primary">Confirm</button>
+    </form>
+</div>

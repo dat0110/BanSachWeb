@@ -1,0 +1,77 @@
+﻿@model IEnumerable<BanSachWeb.Models.DiaChi>
+
+@{
+    ViewBag.Title = "Quản lý thông tin nhận hàng";
+}
+
+
+<style>
+    #tieude {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .but {
+        margin: 20px;
+    }
+
+    .table {
+        margin-left: 20px;
+    }
+</style>
+
+<h2 id="tieude">Quản lý thông tin nhận hàng</h2>
+
+<div class="but">
+    <button type="button" class="btn btn-primary">
+        @Html.ActionLink("Thêm mới", "Create", null, new { @class = "text-white", style = "text-decoration: none;" })
+    </button>
+</div>
+
+<table class="table">
+    <tr>
+
+        <th>
+            Thông tin đầy đủ
+        </th>
+        <th>
+            Mặc định
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <strong>Địa chỉ cụ thể:</strong> @Html.DisplayFor(modelItem => item.DiaChiCuThe) <br />
+                <strong>Số điện thoại nhận hàng:</strong> @Html.DisplayFor(modelItem => item.SoDienThoaiNhanHang) <br />
+                <strong>Tên người nhận:</strong> @Html.DisplayFor(modelItem => item.TenNguoiNhan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MacDinh)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "Edit", new { id = item.MaDiaChi }, new { @class = "text-black", style = "text-decoration: none;" }) |
+
+                @Html.ActionLink("Xóa", "Delete", new { id = item.MaDiaChi }, new { @class = "text-black", style = "text-decoration: none;" })
+            </td>
+            @if (item.MacDinh.HasValue && item.MacDinh.Value)
+            {
+
+
+                Session["madiachi"] = item.MaDiaChi;
+            }
+
+        </tr>
+    }
+
+</table>
+<div class="but">
+    <button type="button" class="btn btn-primary">
+        @Html.ActionLink("Back", "UpdateAccountInfo", "Account", null, new { @class = "text-white", style = "text-decoration: none;" })
+    </button>
+</div>
+<div>
+    <a href="@Url.Action("OrderConfirmation", "Cart", new { orderId = Session["oderID"] })">Back to Order Confirmation</a>
+</div>

@@ -1,0 +1,37 @@
+﻿@model BanSachWeb.Models.DiaChi
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+
+<h2>Xóa địa chỉ</h2>
+
+<h3>Bạn có chắc chắn muốn xóa địa chỉ này?</h3>
+<div>
+    <h4>Địa chỉ</h4>
+    <hr />
+    <dl class="dl-horizontal" style="border: 1px solid #ddd; padding: 10px; border-radius: 5px; margin:20px;">
+        <dt style="margin-bottom: 10px;">Thông tin đầy đủ</dt>
+        <dd style="margin-bottom: 10px;">
+            <strong>Địa chỉ cụ thể:</strong> @Html.DisplayFor(model => model.DiaChiCuThe) <br />
+            <strong>Số điện thoại nhận hàng:</strong> @Html.DisplayFor(model => model.SoDienThoaiNhanHang) <br />
+            <strong>Tên người nhận:</strong> @Html.DisplayFor(model => model.TenNguoiNhan)
+        </dd>
+        <dt style="margin-bottom: 10px;">@Html.DisplayNameFor(model => model.MacDinh)</dt>
+        <dd style="margin-bottom: 10px;">@Html.DisplayFor(model => model.MacDinh)</dd>
+    </dl>
+</div>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color" style="margin: 20px;">
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a href="@Url.Action( "Index", "DiaChis")" class="btn btn-secondary" style="margin-left: 10px;">Cancel</a>
+    </div>
+}
+</div>

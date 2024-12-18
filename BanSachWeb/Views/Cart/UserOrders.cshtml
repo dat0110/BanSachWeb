@@ -1,0 +1,37 @@
+﻿
+@model IEnumerable<BanSachWeb.Models.DonHang>
+@{
+    ViewBag.Title = "Danh sách đơn hàng";
+}
+
+<h2>Danh sách đơn hàng </h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Date</th>
+            <th>Total Price</th>
+            <th>Status</th>
+            <th>Details</th>
+            <th>Cancel Order</th> <!-- Add a column for cancel button -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.MaDonHang</td>
+                <td>@order.ThoiGianDatHang</td>
+                <td>@order.TongGiaTri</td>
+                <td>@order.TrangThai</td>
+                <td>@Html.ActionLink("View Details", "OrderDetails", new { id = order.MaDonHang })</td>
+                <td>
+                    @if (order.TrangThai == "Chờ xác nhận")
+                    {
+                        @Html.ActionLink("Cancel", "CancelOrder", new { id = order.MaDonHang }, new { @class = "btn btn-danger", onclick = "return confirm('Are you sure you want to cancel this order?');" })
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

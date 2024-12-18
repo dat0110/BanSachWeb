@@ -1,0 +1,522 @@
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\BanSachWeb.dll.config
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\BanSachWeb.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\BanSachWeb.pdb
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\csc.exe
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\csc.exe.config
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\csc.rsp
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\csi.exe
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\csi.exe.config
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\csi.rsp
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.AppContext.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Console.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\vbc.exe
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\vbc.exe.config
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\vbc.rsp
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\Antlr3.Runtime.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\EntityFramework.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\Newtonsoft.Json.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.Helpers.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.Mvc.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.Optimization.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.Razor.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.WebPages.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\WebGrease.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\EntityFramework.xml
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.Helpers.xml
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.Mvc.xml
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.Optimization.xml
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.Razor.xml
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.WebPages.xml
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\Newtonsoft.Json.xml
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\Antlr3.Runtime.pdb
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\obj\Debug\BanSachWeb.csproj.AssemblyReference.cache
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\obj\Debug\BanSachWeb.csproj.CoreCompileInputs.cache
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\obj\Debug\BanSachWeb.csproj.Up2Date
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\obj\Debug\BanSachWeb.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\obj\Debug\BanSachWeb.pdb
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\PagedList.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\PagedList.xml
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\PagedList.Mvc.dll
+C:\Users\haivu\source\repos\BanSachWeb\BanSachWeb\bin\PagedList.Mvc.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\BanSachWeb.dll.config
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\BanSachWeb.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\BanSachWeb.pdb
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\csc.exe
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\csc.exe.config
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\csc.rsp
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\csi.exe
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\csi.exe.config
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\csi.rsp
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.AppContext.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Console.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\vbc.exe
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\vbc.exe.config
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\vbc.rsp
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\Antlr3.Runtime.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\EntityFramework.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\Newtonsoft.Json.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\PagedList.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\PagedList.Mvc.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.Helpers.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.Mvc.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.Optimization.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.Razor.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.WebPages.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\WebGrease.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\EntityFramework.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\PagedList.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\PagedList.Mvc.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.Helpers.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.Mvc.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.Optimization.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.Razor.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.WebPages.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\Newtonsoft.Json.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\Antlr3.Runtime.pdb
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\obj\Debug\BanSachWeb.csproj.AssemblyReference.cache
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\obj\Debug\BanSachWeb.csproj.CoreCompileInputs.cache
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\obj\Debug\BanSachWeb.csproj.Up2Date
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\obj\Debug\BanSachWeb.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code_ManBaHao\DACNCode\BanSachWeb\obj\Debug\BanSachWeb.pdb
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\obj\Debug\BanSachWeb.csproj.AssemblyReference.cache
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\obj\Debug\BanSachWeb.csproj.CoreCompileInputs.cache
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\obj\Debug\BanSachWeb.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\obj\Debug\BanSachWeb.pdb
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\BanSachWeb.dll.config
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\BanSachWeb.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\BanSachWeb.pdb
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\csc.exe
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\csc.exe.config
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\csc.rsp
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\csi.exe
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\csi.exe.config
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\csi.rsp
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.AppContext.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Console.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\vbc.exe
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\vbc.exe.config
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\vbc.rsp
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\Antlr3.Runtime.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\EntityFramework.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\Newtonsoft.Json.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\PagedList.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\PagedList.Mvc.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.Helpers.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.Mvc.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.Optimization.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.Razor.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.WebPages.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\WebGrease.dll
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\EntityFramework.xml
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\PagedList.xml
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\PagedList.Mvc.xml
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.Helpers.xml
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.Mvc.xml
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.Optimization.xml
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.Razor.xml
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.WebPages.xml
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\Newtonsoft.Json.xml
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\Antlr3.Runtime.pdb
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\haivu\source\repos\DACN-Code\BanSachWeb\obj\Debug\BanSachWeb.csproj.Up2Date
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\BanSachWeb.dll.config
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\BanSachWeb.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\BanSachWeb.pdb
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\csc.exe
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\csc.exe.config
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\csc.rsp
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\csi.exe
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\csi.exe.config
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\csi.rsp
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.AppContext.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Console.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\vbc.exe
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\vbc.exe.config
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\vbc.rsp
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\Antlr3.Runtime.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\EntityFramework.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\Newtonsoft.Json.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\PagedList.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\PagedList.Mvc.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.Helpers.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.Mvc.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.Optimization.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.Razor.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.WebPages.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\WebGrease.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\EntityFramework.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\PagedList.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\PagedList.Mvc.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.Helpers.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.Mvc.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.Optimization.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.Razor.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.WebPages.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\Newtonsoft.Json.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\Antlr3.Runtime.pdb
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\obj\Debug\BanSachWeb.csproj.AssemblyReference.cache
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\obj\Debug\BanSachWeb.csproj.CoreCompileInputs.cache
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\obj\Debug\BanSachWeb.csproj.Up2Date
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\obj\Debug\BanSachWeb.dll
+C:\Users\manba\Documents\Đồ án chuyên ngành\Code\BanSachWeb\obj\Debug\BanSachWeb.pdb
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\BanSachWeb.dll.config
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\BanSachWeb.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\BanSachWeb.pdb
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\csc.exe
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\csc.exe.config
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\csc.rsp
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\csi.exe
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\csi.exe.config
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\csi.rsp
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.AppContext.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Collections.Immutable.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Console.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Globalization.Calendars.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.IO.Compression.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.IO.FileSystem.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Net.Http.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Net.Sockets.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Reflection.Metadata.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.ValueTuple.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Xml.XPath.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\vbc.exe
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\vbc.exe.config
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\vbc.rsp
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\VBCSCompiler.exe
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\VBCSCompiler.exe.config
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Antlr3.Runtime.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\EntityFramework.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\EntityFramework.SqlServer.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Newtonsoft.Json.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\PagedList.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\PagedList.Mvc.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Helpers.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Mvc.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Optimization.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Razor.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.WebPages.Deployment.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.WebPages.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.WebPages.Razor.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\WebGrease.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\EntityFramework.xml
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\EntityFramework.SqlServer.xml
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\PagedList.xml
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\PagedList.Mvc.xml
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Helpers.xml
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Mvc.xml
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Optimization.xml
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Razor.xml
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.WebPages.xml
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.WebPages.Deployment.xml
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.WebPages.Razor.xml
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Newtonsoft.Json.xml
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Antlr3.Runtime.pdb
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\obj\Debug\BanSachWeb.csproj.AssemblyReference.cache
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\obj\Debug\BanSachWeb.csproj.CoreCompileInputs.cache
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\obj\Debug\BanSachWeb.csproj.Up2Date
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\obj\Debug\BanSachWeb.dll
+F:\Downloads\DACN-Code-main\DACN-Code-main\BanSachWeb\obj\Debug\BanSachWeb.pdb
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\BanSachWeb.dll.config
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\BanSachWeb.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\BanSachWeb.pdb
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\csc.exe
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\csc.exe.config
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\csc.rsp
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\csi.exe
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\csi.exe.config
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\csi.rsp
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.AppContext.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Console.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.IO.Compression.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Net.Http.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Net.Sockets.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.ValueTuple.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Xml.XPath.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\vbc.exe
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\vbc.exe.config
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\vbc.rsp
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\VBCSCompiler.exe
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Antlr3.Runtime.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\EntityFramework.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\EntityFramework.SqlServer.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Newtonsoft.Json.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\PagedList.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\PagedList.Mvc.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Helpers.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Mvc.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Optimization.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Razor.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.WebPages.Deployment.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.WebPages.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.WebPages.Razor.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\WebGrease.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\EntityFramework.xml
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\EntityFramework.SqlServer.xml
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\PagedList.xml
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\PagedList.Mvc.xml
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Helpers.xml
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Mvc.xml
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Optimization.xml
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.Razor.xml
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.WebPages.xml
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.WebPages.Deployment.xml
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\System.Web.WebPages.Razor.xml
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Newtonsoft.Json.xml
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Antlr3.Runtime.pdb
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\obj\Debug\BanSachWeb.csproj.AssemblyReference.cache
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\obj\Debug\BanSachWeb.csproj.CoreCompileInputs.cache
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\obj\Debug\BanSachWeb.csproj.Up2Date
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\obj\Debug\BanSachWeb.dll
+D:\DoAnBTL\DACN-Code-main\DACN-Code-main\BanSachWeb\obj\Debug\BanSachWeb.pdb

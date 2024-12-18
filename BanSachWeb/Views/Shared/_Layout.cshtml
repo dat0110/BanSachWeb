@@ -1,0 +1,198 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="~/Content/HomeStyle.css">
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="m_top sticky-top">
+        <section class="header ">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-md-2">
+                        <span class="fs-3">
+                            <a href="/Home"><img src="~/Image/sachhayvn-high-resolution-logo-black-transparent.png" alt="logo" class="img-fluid" /></a>
+                        </span>
+                    </div>
+
+                    <div class="col-md-6 ">
+                        <div class="input-group mb-3">
+                            @using (Html.BeginForm("Search", "Sach", FormMethod.Post, new { id = "searchForm" }))
+                            {
+                                <input class="mr-sm-2" type="text" id="searchBox" name="SearchKey" placeholder="Nhập từ khóa" list="suggestions" autocomplete="off" value="@ViewBag.SearchKey" />
+                                <datalist id="suggestions"></datalist>
+
+                                <button type="submit" class="btn btn-primary" onclick="return validateSearchKey()">Search</button>
+
+                            }
+                        </div>
+                    </div>
+
+
+                    @if (Session["emailOrPhone"] == null)
+                    {
+                        <div class="col-md-2 ">
+                            <a href="/Register" id="Register" class="btn btn-outline-success">Đăng ký</a>
+                            <a href="/Login" id="Login" class="btn btn-outline-danger">Đăng nhập</a>
+                        </div>
+                    }
+                    else
+                    {
+
+                        <div class="col-md-2 ">
+                            <a href="/Cart/Index" class="text-decoration-none position-relative" style="color:black">
+                                <div class="">
+                                    <span class="fs-3"><i class="fa-solid fa-cart-shopping"></i></span>
+                                    <span class="fs-5">Giỏ hàng</span>
+
+                                </div>
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+
+        <section class="main_nav">
+            <div class="container" id="menu">
+                <div class="col-6 ps-5">
+                    <div class="dropdown" id="myDropdown">
+                        <p id="dr" class="dropdown-toggle m-0 py-2">
+                            <i class="fa-solid fa-list"></i>
+                            Danh mục sách
+                        </p>
+                        <ul id="sdm" class="dropdown-menu mt-2">
+                            @Html.Action("GetCategories", "Sach")
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <ul id="mn">
+                        <li><a href="/Home">Trang chủ</a></li>
+                        <li><a href="/Sach/TopSale">Sách bán chạy</a></li>
+                        <li><a href="#">Khuyến mãi</a></li>
+                        @if (Session["username"] != null)
+                        {
+                            <li>
+                                <a href="#">@Session["username"]</a>
+                                <ul id="sub">
+
+                                    <li>@Html.ActionLink("Cập nhật thông tin", "UpdateAccountInfo", "Account")</li>
+                                    <li>@Html.ActionLink("Đăng xuất", "Logout", "Account")</li>
+                                    <li>@Html.ActionLink("Danh sách đơn hàng", "UserOrders", "Cart")</li>
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <section class="content">
+        @RenderBody()
+
+    </section>
+
+    <section class="main_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <ul class="sub_foot">
+                        <li><h2>SachHay.vn</h2></li>
+                        <li><h3>Địa chỉ:</h3></li>
+                        <li><p>Trường đại học công nghiệp Hà Nội</p></li>
+                        <li><h3>Liên hệ</h3></li>
+                        <li><p>Email:manbahao1508@gmail.com</p></li>
+                        <li><p>SDT: 012345678</p></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul class="sub_foot">
+                        <li> <h3>Dịch vụ</h3></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Chính sách thanh toán</a></li>
+                        <li><a href="#">Về SachHay.vn</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul class="sub_foot">
+                        <li><h3>Hỗ trợ</h3></li>
+                        <li><a href="#">Chính sách đổi - trả - hoàn tiền</a></li>
+                        <li><a href="#">Chính sách vận chuyển</a></li>
+                        <li><a href="#">Phương thức thanh toán</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p style="text-align:center">Copyright by HaUI.</p>
+    </section>
+
+
+
+
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="~/Scripts/jquery-3.7.1.min.js"></script>
+
+    <script>
+            $(document).ready(function () {
+                $('.dropdown-toggle').click(function () {
+                    $(this).next('.dropdown-menu').toggle();
+                });
+            });
+            $('#searchBox').keyup(function () {
+                var query = $(this).val();
+                if (query.length > 2) {
+                    $.ajax({
+                        url: '@Url.Action("GetSuggestions", "Sach")',
+                        data: { term: query },
+                        success: function (data) {
+                            $('#suggestions').empty();
+                            $.each(data, function (index, value) {
+                                $('#suggestions').append('<option value="' + value + '">');
+                            });
+                        }
+                    });
+                }
+            });
+
+            $(document).on('click', '#suggestionsList li', function () {
+                $('#searchBox').val($(this).text());
+                $('#suggestionsList').hide();
+            });
+
+    </script>
+    <script>
+        function validateSearchKey() {
+            var searchKey = document.getElementById("searchBox").value;
+            if (searchKey.trim() === "") {
+                alert("Please enter a search key.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+
+    @RenderSection("scripts", required: false)
+
+
+
+
+</body>
+
+</html>
